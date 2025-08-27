@@ -1,8 +1,5 @@
 name: Build and Release
 
-- name: Upload a Build Artifact
-  uses: actions/upload-artifact@v4.6.2
-
 on:
   workflow_dispatch:
     inputs:
